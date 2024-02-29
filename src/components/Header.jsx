@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <div className=" max-w-[1920px] mx-auto relative">
         <img className="absolute top-[50%] left-0 md:top-[20%] lg:top-[10%] xl:top-[25%] xl:w-[1000px] xl:h-[1000px] -z-10" src={herorelpise} alt="elipse-hero" />
-      <div className="max-w-[1144px] mx-auto px-[20px] xl:px-0 pt-[60px] lg:pt-[104px] relative">
+      <div className="max-w-[1144px] mx-auto px-[20px] xl:px-0 pt-[60px] lg:pt-[80px] xl:pt-[104px] relative">
         <img
           className="absolute w-[329px] md:w-[380px] xl:w-[586px] h-[307px] md:h-[390px] xl:h-[549px] right-0 xl:right-[-12.9%] top-[35%] md:top-[10%] -z-10"
           src={yellowimg}
@@ -17,14 +17,14 @@ const Header = () => {
         <div className="md:flex items-center justify-between">
           <div className="w-full md:w-[50%]">
             <div className="relative">
-              <h1 className="font-circular text-[30px] lg:text-md text-black font-black leadiong-[110%] z-10 relative max-w-[495px]">
+              <h1 className="font-circular text-[30px] lg:text-md text-black font-black leading-[110%] z-10 relative max-w-[495px]">
                 <span className="text-[#5271ff]">Redeem Discounts for </span>
                 Amazing Products: Engage with a{" "}
                 <span className="text-[#5271ff]">Community</span> and
                 <span className="text-[#5271ff]"> Win Cash Prizes</span>
               </h1>
               <img
-                className="absolute top-2 left-[-7%] md:left-[-5%] lg:left-[-6%] xl:left-[-5%] -z-10 h-[225px] w-[92px]"
+                className="absolute top-[-5%] left-[-7%] h-[180px] md:left-[-5%] lg:left-[-6%] xl:left-[-5%] -z-10 md:h-[245px] md:top-[-35%] lg:top-[-20%] md:w-[70px] w-[86px] xl:w-[80px] xl:top-[-20%]"
                 src={commanimg}
                 alt="comman-img-m"
               />

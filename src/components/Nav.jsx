@@ -48,38 +48,39 @@ const Navbar = () => {
               show ? "left-0" : ""
             } duration-500 bg-[#5271FF] w-full h-[425px] top-[0] -left-full fixed gap-[33px] lg:gap-[50px] flex flex-col justify-center items-center lg:bg-transparent lg:flex-row lg:static lg:w-auto lg:h-full z-40`}
           >
-            <li className=" mt-14 lg:mt-0">
+            <div class="bg-[#758dff] h-[2px] w-[90%] lg:hidden mt-[52px] lg:mt-0"></div>
+            <li className="">
               <a
-                href="#"
+                href=""
                 onClick={() => setShow(!show)}
-                className="relative transition-all ease-in-out duration-500 text-white hover:text-[#ffa852] font-circular font-medium text-base leading-[126%] after:absolute after:top-[-28px] after:left-[-5px] after:h-[3px] after:ease-in-out after:duration-300 after:w-0 after:hover:w-[57px] after:bg-[#ffa852]"
+                className="relative transition-all ease-in-out duration-500 text-white hover:text-[#ffa852] font-circular font-medium text-base leading-[126%] after:absolute after:top-[-28px] after:left-[-5px] after:h-[3px] after:rounded-b-full after:ease-in-out after:duration-300 after:w-0 after:hover:w-[57px] after:bg-[#ffa852]"
               >
                 Menu
               </a>
             </li>
             <li>
               <a
-                href="#"
+                href=""
                 onClick={() => setShow(!show)}
-                className="relative transition-all ease-in-out duration-500 text-white hover:text-[#ffa852] font-circular font-medium text-base leading-[126%] after:absolute after:top-[-28px] after:left-[-5px] after:h-[3px] after:ease-in-out after:duration-300 after:w-0 after:hover:w-[57px] after:bg-[#ffa852]"
+                className="relative transition-all ease-in-out duration-500 text-white hover:text-[#ffa852] font-circular font-medium text-base leading-[126%] after:absolute after:top-[-28px] after:left-[-5px] after:h-[3px] after:rounded-b-full after:ease-in-out after:duration-300 after:w-0 after:hover:w-[57px] after:bg-[#ffa852]"
               >
                 Menu
               </a>
             </li>
             <li>
               <a
-                href="#"
+                href=""
                 onClick={() => setShow(!show)}
-                className="relative transition-all ease-in-out duration-500 text-white hover:text-[#ffa852] font-circular font-medium text-base leading-[126%] after:absolute after:top-[-28px] after:left-[-5px] after:h-[3px] after:ease-in-out after:duration-300 after:w-0 after:hover:w-[57px] after:bg-[#ffa852]"
+                className="relative transition-all ease-in-out duration-500 text-white hover:text-[#ffa852] font-circular font-medium text-base leading-[126%] after:absolute after:top-[-28px] after:left-[-5px] after:h-[3px] after:rounded-b-full after:ease-in-out after:duration-300 after:w-0 after:hover:w-[57px] after:bg-[#ffa852]"
               >
                 Menu
               </a>
             </li>
             <li>
               <a
-                href="#"
+                href=""
                 onClick={() => setShow(!show)}
-                className="relative transition-all ease-in-out duration-500 text-white hover:text-[#ffa852] font-circular font-medium text-base leading-[126%] after:absolute after:top-[-28px] after:left-[-5px] after:h-[3px] after:ease-in-out after:duration-300 after:w-0 after:hover:w-[57px] after:bg-[#ffa852]"
+                className="relative transition-all ease-in-out duration-500 text-white hover:text-[#ffa852] font-circular font-medium text-base leading-[126%] after:absolute after:top-[-28px] after:left-[-5px] after:h-[3px] after:rounded-b-full after:ease-in-out after:duration-300 after:w-0 after:hover:w-[57px] after:bg-[#ffa852]"
               >
                 Menu
               </a>

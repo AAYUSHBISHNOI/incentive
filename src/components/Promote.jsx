@@ -11,8 +11,8 @@ const Promote = () => {
         src={image_two}
         alt="promote-bg-image"
       />
-      <div className="max-w-[1144px] mx-auto px-[20px] xl:px-0 py-[53px] md:py-[75px] lg:py-[100px] z-10">
-        <div className="flex flex-col md:flex-row justify-between">
+      <div className="max-w-[1144px] mx-auto px-[20px] xl:px-0 py-[60px] md:py-[60px] lg:py-[80px] xl:py-[100px] z-10">
+        <div className="flex flex-col items-center md:flex-row justify-between">
           <div className="w-full md:w-[48%] order-2 md:order-1 mt-[25px] md:mt-0 flex flex-col justify-center items-center">
             <img
               className="rounded-2xl w-[295px] md:w-[527px] h-[353px] md:h-[470px] lg:h-[631px]"
@@ -23,14 +23,14 @@ const Promote = () => {
               Get Started
             </button>
           </div>
-          <div className="w-full md:w-[48%] order-1 md:order-2">
+          <div className="w-full md:w-[47%] order-1 md:order-2">
             <div className="relative">
               <h2 className="font-circular text-[28px] lg:text-md text-[#000000] font-black leadiong-[110%] z-10 relative max-w-[335px] md:max-w-[517px]">
                 Promote Great Products and Create a Community Around Your
                 Product or Venue
               </h2>
               <img
-                className="absolute top-0 left-[-6%] md:left-[-5%] lg:left-[-5%] xl:left-[-5%] -z-10"
+                className="absolute top-0 left-[-10%] md:left-[-5%] lg:left-[-5%] xl:left-[-8%] -z-10 h-[50px] md:h-[60px] xl:w-[160px]"
                 src={commanimg}
                 alt="comman-img-m"
               />

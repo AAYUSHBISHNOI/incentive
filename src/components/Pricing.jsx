@@ -6,25 +6,25 @@ import pricingtwo from "../assets/image/webp/pricing-sec-img-two.webp";
 const Pricing = () => {
   return (
     <div className="bg-pricing z-20 relative max-w-[1920px] mx-auto">
-      <div className="max-w-[1144px] mx-auto px-[20px] xl:px-0 pt-[54px] pb-[50px] md:pt-[107px] md:pb-[100px]">
+      <div className="max-w-[1144px] mx-auto px-[20px] xl:px-0 py-[60px] lg:py-[80px] xl:pt-[107px] xl:pb-[100px]">
         <div className="relative">
           <h2 className="font-circular text-[34px] md:text-md text-white font-black leadiong-[110%] text-center z-10 relative">
             Pricing
           </h2>
           <img
-            className="absolute top-0 left-[27%] md:left-[40%] lg:left-[42%] xl:left-[43%] -z-10"
+            className="absolute top-0 left-[30%] md:left-[40%] lg:left-[42%] xl:left-[43%] -z-10 h-[50px] md:h-[60px]"
             src={commanimg}
             alt="comman-img-m"
           />
         </div>
-        <div className="md:flex flex-col items-center lg:flex-row justify-center gap-6 mt-[59px]">
-          <div className="relative group md:w-[430px] xl:w-[470px]">
-            <div className="rounded-[10px] cursor-pointer bg-[#f68a74] w-[160px] h-[38px] text-center flex justify-center absolute z-20 -translate-x-[19px] md:-translate-x-[72px] -translate-y-5 md:-translate-y-1 -rotate-[12deg] md:-rotate-[38deg] opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out">
+        <div className="md:flex flex-col items-center md:flex-row justify-center gap-6 mt-[59px]">
+          <div className="md:w-[430px] xl:w-[465px]">
+            <div className="rounded-[10px] cursor-pointer bg-[#f68a74] w-[160px] h-[38px] text-center flex justify-center absolute z-20 -translate-x-[19px] lg:-translate-x-[72px] md:-translate-x-[10px] -translate-y-5 lg:-translate-y-1 -rotate-[12deg] md:-rotate-[15deg] lg:-rotate-[38deg]">
               <p className="font-circular cursor-pointer font-medium text-lg leading-[190%] text-white mb-0">
                 Most Popular
               </p>
             </div>
-            <div className="w-[335px] md:w-[461px] lg:w-[420px] xl:w-[461px] h-[543px] md:h-[677px] py-[30px] duration-500 ease-in-out border-transparent hover:border-[#f68a74] border-[6px] rounded-[10px] bg-white pricing-card-shadow relative flex justify-center items-center flex-col">
+            <div className="w-[335px] md:w-[360px] lg:w-[420px] xl:w-[461px] h-[543px] md:h-[677px] py-[30px] border-[#f68a74] border-[6px] rounded-[10px] bg-white pricing-card-shadow relative flex justify-center items-center flex-col">
               <img
                 className="w-[102px] h-[90px] md:w-[143px] md:h-[125px]"
                 src={pricingfirst}
@@ -36,7 +36,7 @@ const Pricing = () => {
               <p className="font-circular font-semibold text-[50px] md:text-6xl text-black !leading-[140%]">
                 $49<span className="text-xl">/mo</span>
               </p>
-              <div className="w-[295px] md:w-[391px] h-[220px] md:h-[234px] bg-lightblue rounded-[10px] px-[25px] py-[25px] mt-[10px] md:mt-[19px]">
+              <div className="w-[295px] lg:w-[380px] xl:w-[391px] h-[220px] md:h-[234px] bg-lightblue rounded-[10px] px-[25px] py-[25px] mt-[10px] md:mt-[19px]">
                 <div className=" flex items-center gap-[14px]">
                   <span>
                     <svg
@@ -158,18 +158,13 @@ const Pricing = () => {
                   </p>
                 </div>
               </div>
-              <button className="font-circular hover:bg-[#ffa852] duration-500 ease-in-out text-lg font-normal leading-[126%] md:pt-[17px] md:pb-[20px] py-[17px] px-[97px] md:px-[139px] bg-darkblue text-white rounded-[10px] mt-[20px] md:mt-[42px]">
+              <button className="font-circular hover:bg-[#ffa852] duration-500 ease-in-out text-lg font-normal leading-[126%] md:pt-[17px] md:pb-[20px] py-[17px] px-[97px] lg:px-[139px] bg-darkblue text-white rounded-[10px] mt-[20px] md:mt-[42px]">
                 Start For Free
               </button>
             </div>
           </div>
-          <div className="relative group md:w-[430px] xl:w-[470px] mt-[20px] md:mt-0">
-            <div className="rounded-[10px] bg-[#f68a74] w-[160px] h-[38px] text-center flex justify-center cursor-pointer absolute z-20 -translate-x-[19px] md:-translate-x-[72px] -translate-y-5 md:-translate-y-1 -rotate-[12deg] md:-rotate-[38deg] opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out">
-              <p className="font-circular font-medium text-lg leading-[190%] text-white mb-0 cursor-pointer">
-                Most Popular
-              </p>
-            </div>
-            <div className="w-[335px] md:w-[461px] lg:w-[420px] xl:w-[461px] h-[543px] md:h-[677px] py-[30px] duration-500 ease-in-out border-transparent hover:border-[#f68a74] border-[6px] rounded-[10px] bg-white pricing-card-shadow relative flex justify-center items-center flex-col">
+          <div className=" md:w-[430px] xl:w-[465px] mt-[20px] md:mt-0">
+            <div className="w-[335px] md:w-[360px] lg:w-[420px] xl:w-[461px] h-[543px] md:h-[677px] py-[30px] rounded-[10px] bg-white pricing-card-shadow relative flex justify-center items-center flex-col">
               <img
                 className="w-[102px] h-[90px] md:w-[143px] md:h-[125px]"
                 src={pricingtwo}
@@ -181,7 +176,7 @@ const Pricing = () => {
               <p className="font-circular font-semibold text-[50px] md:text-6xl text-black !leading-[140%]">
                 $89<span className="text-lg md:text-xl">/mo</span>
               </p>
-              <div className="w-[295px] h-[220px] md:w-[391px] md:h-[234px] bg-lightblue rounded-[10px] px-[25px] py-[25px] mt-[10px] md:mt-[19px]">
+              <div className="w-[295px] h-[220px] lg:w-[380px] xl:w-[391px] md:h-[234px] bg-lightblue rounded-[10px] px-[25px] py-[25px] mt-[10px] md:mt-[19px]">
                 <div className=" flex items-center gap-[14px]">
                   <span>
                     <svg
@@ -303,7 +298,7 @@ const Pricing = () => {
                   </p>
                 </div>
               </div>
-              <button className="font-circular hover:bg-[#ffa852] duration-500 ease-in-out text-base md:text-lg font-normal leading-[126%] pt-[17px] pb-[20px] px-[98px] md:px-[139px] bg-darkblue text-white rounded-[10px] mt-[19px] md:mt-[42px]">
+              <button className="font-circular hover:bg-[#ffa852] duration-500 ease-in-out text-base md:text-lg font-normal leading-[126%] pt-[17px] pb-[20px] px-[98px] lg:px-[139px] bg-darkblue text-white rounded-[10px] mt-[19px] md:mt-[42px]">
                 Start For Free
               </button>
             </div>

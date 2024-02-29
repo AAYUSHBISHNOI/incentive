@@ -32,7 +32,7 @@ const BackToTop = () => {
   return (
     <button
       onClick={scrollToTop}
-      className={`fixed bottom-2 right-2 bg-[#f68a74] rounded-full px-[10px] py-[10px] z-50 cursor-pointer transition-all duration-500 ease-linear 
+      className={`fixed bottom-2 right-2 bg-[#f68a74] rounded-full md:px-[10px] px-[3px] py-[3px] md:py-[10px] z-50 cursor-pointer transition-all duration-500 ease-linear 
         ${
           isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-full"
         }`}

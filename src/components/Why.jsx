@@ -6,20 +6,20 @@ const Why = () => {
   return (
     <div className=" max-w-[1920px] mx-auto relative">
       <img className="absolute -z-10 xl:w-[1000px] xl:h-[1000px] right-0 top-[90%] md:top-[50%] lg:top-[20%] xl:top-[50%]" src={whyelipse} alt="elipse-why" />
-      <div className=" max-w-[1144px] mx-auto px-[20px] xl:px-0 pt-[54px] md:pt-[100px]">
+      <div className=" max-w-[1144px] mx-auto px-[20px] xl:px-0 pt-[60px] lg:pt-[80px] xl:pt-[100px]">
         <div className="relative flex justify-center text-center">
           <h2 className="font-circular text-[28px] lg:text-md text-[#000000] font-black leadiong-[110%] z-10 relative max-w-[335px] md:max-w-[517px]">
             Why Incentive Promotions
           </h2>
           <img
-            className="absolute top-0 left-[29%] md:left-[42%] lg:left-[42%] xl:left-[45%] -z-10 h-[50px]"
+            className="absolute top-0 left-[33%] md:left-[42%] lg:left-[42%] xl:left-[43%] -z-10 h-[40px] md:h-[50px] xl:h-[60px] xl:w-[160px]"
             src={commanimg}
             alt="comman-img-m"
           />
         </div>
         <div className="flex flex-col mt-[25px] md:mt-[50px]">
           <div className="md:flex justify-between">
-            <div className="w-full md:w-[354px] lg:w-[314px] xl:w-[364px] h-[200px] md:h-[321px] lg:h-[370px] xl:h-[321px] bg-white rounded-[10px] py-[35px] px-[25px] flex flex-col items-center text-center pricing-card-shadow">
+            <div className="w-full border-[2px] border-transparent hover:border-[#5271ff] duration-500 ease-in-out  md:w-[354px] lg:w-[314px] xl:w-[364px] h-[200px] md:h-[321px] lg:h-[370px] xl:h-[331px] bg-white rounded-[10px] py-[35px] px-[25px] flex flex-col items-center text-center pricing-card-shadow">
               <span>
                 <svg
                   width="82"
@@ -74,7 +74,7 @@ const Why = () => {
                 Incentive helps companies offer deep discounts to customers.
               </p>
             </div>
-            <div className="w-full md:w-[354px] lg:w-[314px] xl:w-[364px] h-[255px] md:h-[321px] lg:h-[370px] xl:h-[321px] bg-white rounded-[10px] py-[35px] px-[25px] flex flex-col items-center text-center pricing-card-shadow mt-[15px] md:mt-0">
+            <div className="w-full border-[2px] border-transparent hover:border-[#5271ff] duration-500 ease-in-out  md:w-[354px] lg:w-[314px] xl:w-[364px] h-[255px] md:h-[321px] lg:h-[370px] xl:h-[331px] bg-white rounded-[10px] py-[35px] px-[25px] flex flex-col items-center text-center pricing-card-shadow mt-[15px] md:mt-0">
               <span>
                 <svg
                   width="82"
@@ -121,7 +121,7 @@ const Why = () => {
               </p>
             </div>
             <div className="md:hidden lg:block">
-              <div className="w-full lg:w-[314px] xl:w-[364px] h-[295px] md:h-[321px] lg:h-[370px] xl:h-[321px] bg-white rounded-[10px] py-[35px] px-[25px] flex flex-col items-center text-center pricing-card-shadow mt-[15px] lg:mt-0">
+              <div className="w-full border-[2px] border-transparent hover:border-[#5271ff] duration-500 ease-in-out  lg:w-[314px] xl:w-[364px] h-[295px] md:h-[321px] lg:h-[370px] xl:h-[331px] bg-white rounded-[10px] py-[35px] px-[25px] flex flex-col items-center text-center pricing-card-shadow mt-[15px] lg:mt-0">
                 <span>
                   <svg
                     width="75"
@@ -174,7 +174,7 @@ const Why = () => {
           </div>
           <div className="flex justify-between">
             <div className=" hidden md:block lg:hidden">
-              <div className="w-full md:w-[354px] h-[295px] md:h-[380px] bg-white rounded-[10px] py-[35px] px-[25px] flex flex-col items-center text-center pricing-card-shadow mt-[15px]">
+              <div className="w-full border-[2px] border-transparent hover:border-[#5271ff] duration-500 ease-in-out  md:w-[354px] h-[295px] md:h-[380px] bg-white rounded-[10px] py-[35px] px-[25px] flex flex-col items-center text-center pricing-card-shadow mt-6">
                 <span>
                   <svg
                     width="75"
@@ -224,7 +224,7 @@ const Why = () => {
                 </p>
               </div>
             </div>
-            <div className="w-full md:w-[354px] h-[320px] lg:w-[480px] md:h-[380px] lg:h-[321px] xl:w-[558px] bg-white rounded-[10px] py-[35px] px-[25px] flex flex-col items-center text-center pricing-card-shadow mt-[15px]">
+            <div className="w-full border-[2px] border-transparent hover:border-[#5271ff] duration-500 ease-in-out  md:w-[354px] h-[320px] lg:w-[480px] md:h-[380px] lg:h-[321px] xl:w-[558px] bg-white rounded-[10px] py-[35px] px-[25px] flex flex-col items-center text-center pricing-card-shadow mt-[15px] md:mt-6">
               <span>
                 <svg
                   width="96"
@@ -256,7 +256,7 @@ const Why = () => {
               </p>
             </div>
             <div className="hidden lg:block">
-              <div className="w-full lg:w-[480px] xl:w-[558px] h-[255px] md:h-[321px] bg-white rounded-[10px] py-[35px] px-[25px] flex flex-col items-center text-center pricing-card-shadow mt-[15px]">
+              <div className="w-full border-[2px] border-transparent hover:border-[#5271ff] duration-500 ease-in-out  lg:w-[480px] xl:w-[558px] h-[255px] md:h-[321px] bg-white rounded-[10px] py-[35px] px-[25px] flex flex-col items-center text-center pricing-card-shadow mt-6">
                 <span>
                   <svg
                     width="75"
@@ -317,8 +317,8 @@ const Why = () => {
               </div>
             </div>
           </div>
-          <div className="lg:hidden">
-            <div className="w-full md:w-[354px] lg:w-[558px] h-[255px] md:h-[321px] bg-white rounded-[10px] py-[35px] px-[25px] flex flex-col items-center text-center pricing-card-shadow mt-[15px]">
+          <div className="lg:hidden flex justify-center items-center">
+            <div className="w-full border-[2px] border-transparent hover:border-[#5271ff] duration-500 ease-in-out  md:w-[354px] lg:w-[558px] h-[255px] md:h-[321px] bg-white rounded-[10px] py-[35px] px-[25px] flex flex-col items-center text-center pricing-card-shadow mt-[15px] md:mt-6">
               <span>
                 <svg
                   width="75"

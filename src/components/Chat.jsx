@@ -8,9 +8,9 @@ const Chat = () => {
   return (
     <div className=" max-w-[1920px] mx-auto relative">
       <img className="absolute -z-10 lg:w-[800px] lg:h-[800px] xl:w-[1000px] xl:h-[1000px] left-0 top-[50%] lg:top-[70%] xl:top-[30%]" src={chatelipse} alt="elipse-chat" />
-      <div className="max-w-[1144px] mx-auto px-[20px] xl:px-0 pt-[54px] xl:pt-[100px] relative">
+      <div className="max-w-[1144px] mx-auto px-[20px] xl:px-0 pt-[60px] lg:pt-[80px] xl:pt-[100px] relative">
         <img
-          className="absolute w-[349px] md:w-[551px] h-[327px] md:h-[535px] right-3 top-[39%] lg:top-[20%] lg:w-[501px] xl:w-[535px] xl:top-[23%] -z-10"
+          className="absolute w-[349px] md:w-[300px] h-[327px] md:h-[300px] lg:h-[450px] lg:w-[466px] xl:h-[535px] right-3 top-[39%] md:top-[45%] lg:top-[20%] xl:w-[571px] xl:top-[23%] -z-10"
           src={blueimg}
           alt="blue-bg"
         />
@@ -21,7 +21,7 @@ const Chat = () => {
                 Chat With Others
               </h2>
               <img
-                className="absolute top-0 left-[-5%] md:left-[0%] lg:left-[0%] xl:left-[-5%] -z-10 h-[50px]"
+                className="absolute top-0 left-[-8%] md:left-[0%] lg:left-[0%] xl:left-[-8%] -z-10 h-[38px] md:h-[50px] xl:h-[60px] xl:w-[170px]"
                 src={commanimg}
                 alt="comman-img-m"
               />
@@ -41,7 +41,7 @@ const Chat = () => {
           </div>
           <div className="w-full lg:w-[50%] flex flex-col items-center justify-center md:justify-end md:items-end lg:justify-center lg:items-center mt-[20px] md:mt-0">
             <img
-              className="w-[210px] md:w-[322px] h-[429px] md:h-[658px]"
+              className="w-[210px] xl:w-[322px] lg:w-[300px] h-[429px] lg:h-[550px] xl:h-[658px]"
               src={mobile}
               alt="chat-mobile"
             />
