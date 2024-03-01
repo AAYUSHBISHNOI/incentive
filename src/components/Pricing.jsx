@@ -24,10 +24,10 @@ const Pricing = () => {
     return () => clearInterval(interval);
   }, []);
   return (
-    <div className="bg-pricing z-20 relative max-w-[1920px] mx-auto">
+    <div className="bg-[linear-gradient(90deg,#2846CF_0%,#5271FF_100%)] z-20 relative max-w-[1920px] mx-auto ">
       <div className="max-w-[1144px] mx-auto px-[20px] xl:px-0 py-[60px] lg:py-[80px] xl:pt-[107px] xl:pb-[100px]">
         <div className="relative">
-          <h2 className="font-circular text-[34px] md:text-md text-white font-black leadiong-[110%] text-center z-10 relative">
+          <h2 className="font-circular text-[34px] md:text-4-xl text-white font-black leadiong-[110%] text-center z-10 relative">
             Pricing
           </h2>
           <img

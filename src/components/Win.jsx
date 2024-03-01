@@ -27,7 +27,7 @@ const Win = () => {
           </div>
           <div className="w-full md:w-[54%] order-1 lg:order-2">
             <div className="relative">
-              <h2 className="font-circular text-[28px] lg:text-md text-[#000000] font-black leadiong-[110%] z-10 relative max-w-[335px] md:max-w-[517px]">
+              <h2 className="font-circular text-[28px] lg:text-4-xl text-[#000000] font-black leadiong-[110%] z-10 relative max-w-[335px] md:max-w-[517px]">
                 Win Cash to Venmo
               </h2>
               <p className="text-xl font-circular font-semibold leading-[110%] text-[#5271f0]">

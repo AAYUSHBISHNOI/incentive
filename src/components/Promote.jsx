@@ -25,7 +25,7 @@ const Promote = () => {
           </div>
           <div className="w-full md:w-[47%] order-1 md:order-2">
             <div className="relative">
-              <h2 className="font-circular text-[28px] lg:text-md text-[#000000] font-black leading-[110%] z-10 relative max-w-[335px] md:max-w-[517px]">
+              <h2 className="font-circular text-[28px] lg:text-4-xl text-[#000000] font-black leading-[110%] z-10 relative max-w-[335px] md:max-w-[517px]">
                 Promote Great Products and Create a Community Around Your
                 Product or Venue
               </h2>

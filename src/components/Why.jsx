@@ -8,7 +8,7 @@ const Why = () => {
       <img className="absolute -z-10 xl:w-[1000px] xl:h-[1000px] right-0 top-[90%] md:top-[50%] lg:top-[20%] xl:top-[50%]" src={whyelipse} alt="elipse-why" />
       <div className=" max-w-[1144px] mx-auto px-[20px] xl:px-0 pt-[60px] lg:pt-[80px] xl:pt-[100px]">
         <div className="relative flex justify-center text-center">
-          <h2 className="font-circular text-[28px] lg:text-md text-[#000000] font-black leadiong-[110%] z-10 relative max-w-[335px] md:max-w-[517px]">
+          <h2 className="font-circular text-[28px] lg:text-4-xl text-[#000000] font-black leadiong-[110%] z-10 relative max-w-[335px] md:max-w-[517px]">
             Why Incentive Promotions
           </h2>
           <img

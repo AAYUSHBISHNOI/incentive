@@ -19,7 +19,7 @@ const Header = () => {
         <div className="md:flex items-center justify-between">
           <div className="w-full md:w-[50%]">
             <div className="relative">
-              <h1 className="font-circular text-[30px] lg:text-md text-black font-black leading-[110%] z-10 relative max-w-[495px]">
+              <h1 className="font-circular text-[30px] lg:text-4-xl text-black font-black leading-[110%] z-10 relative max-w-[495px]">
                 <span className="text-[#5271ff]">Redeem Discounts for </span>
                 Amazing Products: Engage with a{" "}
                 <span className="text-[#5271ff]">Community</span> and

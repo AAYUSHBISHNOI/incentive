@@ -4,16 +4,9 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {
-      screens: {
-        "2sm": "576px",
-        "2lg": "1200px",
-        "3xl": "1320px",
-        "4xl": "1920px",
-        "5xl": "1924px",
-      },
+    extend: { 
       fontSize: {
-          md:"40px",
+          "4-xl":"40px",
           xxl:"26px",
       },
       fontFamily: {

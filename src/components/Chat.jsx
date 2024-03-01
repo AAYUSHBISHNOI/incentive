@@ -17,7 +17,7 @@ const Chat = () => {
         <div className="md:flex items-center justify-between">
           <div className="w-full md:w-[50%] md:order-2 lg:order-1">
             <div className="relative">
-              <h2 className="font-circular text-[28px] lg:text-md text-[#000000] font-black leadiong-[110%] z-10 relative max-w-[335px] md:max-w-[517px]">
+              <h2 className="font-circular text-[28px] lg:text-4-xl text-[#000000] font-black leadiong-[110%] z-10 relative max-w-[335px] md:max-w-[517px]">
                 Chat With Others
               </h2>
               <img
