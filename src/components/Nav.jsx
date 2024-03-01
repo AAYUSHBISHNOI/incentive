@@ -3,7 +3,7 @@ import Logo from "../assets/image/svg/nav-logo.svg";
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
-  const [activeLink, setActiveLink] = useState(null);
+  const [activeLink, setActiveLink] = useState(0);
 
   useEffect(() => {
     if (show) {
@@ -58,10 +58,10 @@ const Navbar = () => {
                 <a
                   href="#"
                   onClick={() => handleLinkClick(index)}
-                  className={`relative transition-all ease-in-out duration-500 text-white font-circular font-medium text-base leading-[126%] hover:text-[#ffa852] hover:after:w-[57px] ${
+                  className={`relative transition-all ease-in-out duration-500  font-circular font-medium text-base leading-[126%] hover:text-[#ffa852] hover:after:w-[57px] ${
                     (activeLink === index && !show) || (activeLink === index && show)
-                      ? "text-[#ffa852] after:w-[57px]"
-                      : "after:w-0"
+                      ? "!text-[#ffa852] after:w-[57px]"
+                      : "after:w-0 text-white"
                   } after:absolute after:top-[-28px] after:left-[-5px] after:h-[3px] after:rounded-b-full after:ease-in-out after:duration-300 after:bg-[#ffa852]`}
                 >
                   {item}
