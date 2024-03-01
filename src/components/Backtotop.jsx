@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
 import backtotop from "../assets/image/svg/backbutton.svg";
 
-const BackToTop = () => {
+const BackToTop = ({
+  isFixed = true,
+}) => {
   const [isVisible, setIsVisible] = useState(false);
 
-  // Function to detect scroll position
   const toggleVisibility = () => {
     if (window.pageYOffset > 20) {
       setIsVisible(true);
@@ -13,33 +14,24 @@ const BackToTop = () => {
     }
   };
 
-  // Function to scroll to the top
+  useEffect(() => {
+    if (isFixed) {
+      window.addEventListener("scroll", toggleVisibility);
+      return () => window.removeEventListener("scroll", toggleVisibility);
+    } else {
+      setIsVisible(true);  
+    }
+  }, [isFixed]);
+
   const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
-  useEffect(() => {
-    window.addEventListener("scroll", toggleVisibility);
-
-    return () => {
-      window.removeEventListener("scroll", toggleVisibility);
-    };
-  }, []);
-
-  return (
-    <button
-      onClick={scrollToTop}
-      className={`fixed bottom-2 right-2 bg-[#f68a74] rounded-full md:px-[10px] px-[3px] py-[3px] md:py-[10px] z-50 cursor-pointer transition-all duration-500 ease-linear 
-        ${
-          isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-full"
-        }`}
-    >
-        <img src={backtotop} alt="Bac-kto-top" />
+  return isVisible ? (
+    <button onClick={scrollToTop} className={`bg-[#f68a74] absolute rounded-full z-50 cursor-pointer transition-all duration-500 ease-linear p-2 -top-[10%] md:top-[-22%] right-[10%] xl:right-0`} >
+      <img src={backtotop} alt="Back-to-top" />
     </button>
-  );
+  ) : null;
 };
 
 export default BackToTop;

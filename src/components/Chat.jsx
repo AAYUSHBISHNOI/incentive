@@ -10,12 +10,12 @@ const Chat = () => {
       <img className="absolute -z-10 lg:w-[800px] lg:h-[800px] xl:w-[1000px] xl:h-[1000px] left-0 top-[50%] lg:top-[70%] xl:top-[30%]" src={chatelipse} alt="elipse-chat" />
       <div className="max-w-[1144px] mx-auto px-[20px] xl:px-0 pt-[60px] lg:pt-[80px] xl:pt-[100px] relative">
         <img
-          className="absolute w-[349px] md:w-[300px] h-[327px] md:h-[300px] lg:h-[450px] lg:w-[466px] xl:h-[535px] right-3 top-[39%] md:top-[45%] lg:top-[20%] xl:w-[571px] xl:top-[23%] -z-10"
+          className="absolute w-[349px] md:w-[300px] h-[327px] md:h-[300px] lg:h-[450px] lg:w-[466px] xl:h-[535px] right-3 md:right-[60%] top-[39%] md:top-[25%] lg:right-0 lg:top-[20%] xl:w-[571px] xl:top-[23%] xl:right-[-10%] -z-10"
           src={blueimg}
           alt="blue-bg"
         />
-        <div className="lg:flex items-center justify-between">
-          <div className="w-full lg:w-[50%]">
+        <div className="md:flex items-center justify-between">
+          <div className="w-full md:w-[50%] md:order-2 lg:order-1">
             <div className="relative">
               <h2 className="font-circular text-[28px] lg:text-md text-[#000000] font-black leadiong-[110%] z-10 relative max-w-[335px] md:max-w-[517px]">
                 Chat With Others
@@ -39,7 +39,7 @@ const Chat = () => {
               Get Started
             </button>
           </div>
-          <div className="w-full lg:w-[50%] flex flex-col items-center justify-center md:justify-end md:items-end lg:justify-center lg:items-center mt-[20px] md:mt-0">
+          <div className="w-full md:w-[48%] md:order-1 lg:order-2 flex flex-col items-center justify-center md:justify-start md:items-start lg:justify-center lg:items-center xl:items-end xl:justify-end mt-[20px] md:mt-0">
             <img
               className="w-[210px] xl:w-[322px] lg:w-[300px] h-[429px] lg:h-[550px] xl:h-[658px]"
               src={mobile}

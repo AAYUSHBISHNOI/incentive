@@ -7,7 +7,7 @@ const Promote = () => {
   return (
     <div className="relative max-w-[1920px] mx-auto">
       <img
-        className="absolute w-[229px] xl:w-[571px] h-[307px] md:h-[407px] lg:h-[535px] left-0 top-[55%] md:top-[20%] -z-10"
+        className="absolute w-[229px] xl:w-[571px] h-[307px] md:h-[407px] lg:h-[535px] left-0 top-[55%] lg:top-[12%] md:top-[20%] xl:top-[20%] -z-10"
         src={image_two}
         alt="promote-bg-image"
       />
@@ -15,7 +15,7 @@ const Promote = () => {
         <div className="flex flex-col items-center md:flex-row justify-between">
           <div className="w-full md:w-[48%] order-2 md:order-1 mt-[25px] md:mt-0 flex flex-col justify-center items-center">
             <img
-              className="rounded-2xl w-[295px] md:w-[527px] h-[353px] md:h-[470px] lg:h-[631px]"
+              className="rounded-2xl w-[295px] md:w-[527px] h-[353px] md:h-[470px] lg:h-[550px] xl:h-[631px]"
               src={image_one}
               alt="girl-image"
             />
@@ -25,7 +25,7 @@ const Promote = () => {
           </div>
           <div className="w-full md:w-[47%] order-1 md:order-2">
             <div className="relative">
-              <h2 className="font-circular text-[28px] lg:text-md text-[#000000] font-black leadiong-[110%] z-10 relative max-w-[335px] md:max-w-[517px]">
+              <h2 className="font-circular text-[28px] lg:text-md text-[#000000] font-black leading-[110%] z-10 relative max-w-[335px] md:max-w-[517px]">
                 Promote Great Products and Create a Community Around Your
                 Product or Venue
               </h2>

@@ -1,11 +1,13 @@
 import React from "react";
 import footer_logo from "../assets/image/svg/footer-logo.svg";
+import BackToTop from "../components/Backtotop";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
-    <div className=" max-w-[1920px] mx-auto">
-      <div className=" max-w-[1144px] mx-auto px-[20px] xl:px-0 pb-[20px]">
+    <div className=" max-w-[1920px] mx-auto ">
+      <div className=" max-w-[1144px] mx-auto px-[20px] xl:px-0 pb-[20px] relative">
+      <BackToTop isFixed={false} />
         <div className="mt-[20px] flex flex-col md:flex-row justify-between items-center pb-[25px] md:pb-[30px]">
           <div className="w-full md:w-[10%] xl:w-[33.33%] flex justify-center xl:justify-start">
             <a href="">

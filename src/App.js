@@ -1,5 +1,5 @@
 import './App.css';
-import Backtootp from './components/Backtotop';
+// import Backtootp from './components/Backtotop';
 import Card from './components/Card';
 import Chat from './components/Chat';
 import Footer from './components/Footer';
@@ -22,7 +22,7 @@ function App() {
     <Promote/>
     <Pricing/>
     <Footer/>
-    <Backtootp/>
+    {/* <Backtootp/> */}
     </>
   );
 }

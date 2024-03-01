@@ -10,12 +10,12 @@ const Win = () => {
       <img className="absolute -z-10 xl:w-[1000px] xl:h-[1000px] right-0 top-[70%] lg:top-[20%] xl:top-[20%]" src={winelipse} alt="elipse-win" />
       <div className="max-w-[1144px] mx-auto px-[20px] xl:px-0 pt-[60px] lg:pt-[80px] xl:pt-[120px] relative">
         <img
-          className="absolute w-[349px] md:w-[300px] lg:h-[450px] h-[327px] md:h-[300px] left-3 md:left-[60%] lg:left-0 top-[39%] md:top-[45%] lg:top-[20%] lg:w-[466px] xl:w-[571px] xl:h-[535px] xl:top-[23%] xl:left-[-10%] -z-10"
+          className="absolute w-[349px] md:w-[300px] lg:h-[450px] h-[327px] md:h-[300px] left-3 md:left-[60%] lg:left-0 top-[39%] md:top-[25%] lg:top-[20%] lg:w-[466px] xl:w-[571px] xl:h-[535px] xl:top-[23%] xl:left-[-12%] -z-10"
           src={blueimg}
           alt="blue-bg"
         />
-        <div className="flex flex-col lg:flex-row items-center justify-between">
-          <div className="w-full lg:w-[48%] order-2 lg:order-1 flex flex-col justify-center items-center mt-[20px] md:mt-0 md:items-end lg:items-center xl:items-start">
+        <div className="flex flex-col md:flex-row items-center justify-between">
+          <div className="w-full md:w-[48%] order-2 lg:order-1 flex flex-col justify-center items-center mt-[20px] md:mt-0 md:items-end lg:items-center xl:items-start">
             <img
               className="w-[210px] xl:w-[322px] lg:w-[300px] h-[429px] lg:h-[550px] xl:h-[658px]"
               src={mobile}
@@ -25,7 +25,7 @@ const Win = () => {
               Get Started
             </button>
           </div>
-          <div className="w-full lg:w-[45%] order-1 lg:order-2">
+          <div className="w-full md:w-[45%] order-1 lg:order-2">
             <div className="relative">
               <h2 className="font-circular text-[28px] lg:text-md text-[#000000] font-black leadiong-[110%] z-10 relative max-w-[335px] md:max-w-[517px]">
                 Win Cash to Venmo

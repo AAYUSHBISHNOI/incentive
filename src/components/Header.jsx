@@ -3,17 +3,19 @@ import commanimg from "../assets/image/svg/comman-m-image.svg";
 import girlimage from "../assets/image/webp/header-img.webp";
 import yellowimg from "../assets/image/webp/header-bg.webp";
 import herorelpise from "../assets/image/webp/hero-elipse.webp";
+import yellow from "../assets/image/webp/header-elipse.webp";
 
 const Header = () => {
   return (
     <div className=" max-w-[1920px] mx-auto relative">
         <img className="absolute top-[50%] left-0 md:top-[20%] lg:top-[10%] xl:top-[25%] xl:w-[1000px] xl:h-[1000px] -z-10" src={herorelpise} alt="elipse-hero" />
-      <div className="max-w-[1144px] mx-auto px-[20px] xl:px-0 pt-[60px] lg:pt-[80px] xl:pt-[104px] relative">
+        <img className="absolute right-0 top-0 -z-10" src={yellow} alt="elipse-yellow" />
         <img
-          className="absolute w-[329px] md:w-[380px] xl:w-[586px] h-[307px] md:h-[390px] xl:h-[549px] right-0 xl:right-[-12.9%] top-[35%] md:top-[10%] -z-10"
+          className="absolute w-[329px] md:w-[380px] xl:w-[586px] h-[307px] md:h-[390px] xl:h-[549px] right-0 xl:right-[0%] top-[35%] xl:top-[15%] md:top-[10%] -z-10"
           src={yellowimg}
           alt="blue-bg"
         />
+      <div className="max-w-[1144px] mx-auto px-[20px] xl:px-0 pt-[60px] lg:pt-[80px] xl:pt-[104px] relative">
         <div className="md:flex items-center justify-between">
           <div className="w-full md:w-[50%]">
             <div className="relative">
@@ -56,7 +58,7 @@ const Header = () => {
           </div>
           <div className="w-full md:w-[48%] mt-[25px] md:mt-0">
             <img
-              className="rounded-2xl w-[295px] md:w-[390px] lg:w-[558px] h-[281px] md:h-[420px] lg:h-[533px]"
+              className="rounded-2xl w-[295px] md:w-[390px] lg:w-[558px] h-[281px] md:h-[390px] lg:h-[533px]"
               src={girlimage}
               alt="girl-img"
             />

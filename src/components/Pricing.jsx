@@ -1,9 +1,28 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import commanimg from "../assets/image/svg/comman-m-img-2.svg";
 import pricingfirst from "../assets/image/webp/pricing-sec-img-one.webp";
 import pricingtwo from "../assets/image/webp/pricing-sec-img-two.webp";
 
 const Pricing = () => {
+  const [counters, setCounters] = useState({ counter1: 0, counter2: 0 });
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCounters((prevCounters) => {
+        const newCounter1 =
+          prevCounters.counter1 < 49
+            ? prevCounters.counter1 + 1
+            : prevCounters.counter1;
+        const newCounter2 =
+          prevCounters.counter2 < 89
+            ? prevCounters.counter2 + 1
+            : prevCounters.counter2;
+        return { counter1: newCounter1, counter2: newCounter2 };
+      });
+    }, 300);
+
+    return () => clearInterval(interval);
+  }, []);
   return (
     <div className="bg-pricing z-20 relative max-w-[1920px] mx-auto">
       <div className="max-w-[1144px] mx-auto px-[20px] xl:px-0 py-[60px] lg:py-[80px] xl:pt-[107px] xl:pb-[100px]">
@@ -17,24 +36,25 @@ const Pricing = () => {
             alt="comman-img-m"
           />
         </div>
-        <div className="md:flex flex-col items-center md:flex-row justify-center gap-6 mt-[59px]">
+        <div className="flex flex-col items-center md:flex-row justify-center gap-6 mt-[59px]">
           <div className="md:w-[430px] xl:w-[465px]">
             <div className="rounded-[10px] cursor-pointer bg-[#f68a74] w-[160px] h-[38px] text-center flex justify-center absolute z-20 -translate-x-[19px] lg:-translate-x-[72px] md:-translate-x-[10px] -translate-y-5 lg:-translate-y-1 -rotate-[12deg] md:-rotate-[15deg] lg:-rotate-[38deg]">
               <p className="font-circular cursor-pointer font-medium text-lg leading-[190%] text-white mb-0">
                 Most Popular
               </p>
             </div>
-            <div className="w-[335px] md:w-[360px] lg:w-[420px] xl:w-[461px] h-[543px] md:h-[677px] py-[30px] border-[#f68a74] border-[6px] rounded-[10px] bg-white pricing-card-shadow relative flex justify-center items-center flex-col">
+            <div className="w-[335px] md:w-[360px] lg:w-[420px] xl:w-[461px] h-[543px] md:h-[677px] py-[30px] border-[#f68a74] border-[6px] rounded-[10px] bg-white price-card-shadowrelative flex justify-center items-center flex-col">
               <img
                 className="w-[102px] h-[90px] md:w-[143px] md:h-[125px]"
                 src={pricingfirst}
                 alt="pricing-first-img"
               />
-              <p className="font-circular text-[22px] md:text-xxl font-semibold text-darkblue leading-[140%] !mt-[19px]">
-                Standard
+               <p className="font-circular text-[22px] md:text-xxl font-semibold text-darkblue leading-[140%] !mt-[19px]">
+               Standard
               </p>
               <p className="font-circular font-semibold text-[50px] md:text-6xl text-black !leading-[140%]">
-                $49<span className="text-xl">/mo</span>
+                ${counters.counter1}
+                <span className="text-xl">/mo</span>
               </p>
               <div className="w-[295px] lg:w-[380px] xl:w-[391px] h-[220px] md:h-[234px] bg-lightblue rounded-[10px] px-[25px] py-[25px] mt-[10px] md:mt-[19px]">
                 <div className=" flex items-center gap-[14px]">
@@ -174,7 +194,8 @@ const Pricing = () => {
                 Enterprise
               </p>
               <p className="font-circular font-semibold text-[50px] md:text-6xl text-black !leading-[140%]">
-                $89<span className="text-lg md:text-xl">/mo</span>
+                ${counters.counter2}
+                <span className="text-xl">/mo</span>
               </p>
               <div className="w-[295px] h-[220px] lg:w-[380px] xl:w-[391px] md:h-[234px] bg-lightblue rounded-[10px] px-[25px] py-[25px] mt-[10px] md:mt-[19px]">
                 <div className=" flex items-center gap-[14px]">
@@ -304,7 +325,7 @@ const Pricing = () => {
             </div>
           </div>
         </div>
-        <div className="text-center flex justify-center items-center mt-[50px]">
+        <div className="text-center flex justify-center items-center mt-[25px] md:mt-[50px]">
           <p className=" font-light text-base md:text-lg font-circular leading-[150%] text-white max-w-[777px]">
             ¹No purchase necessary. Contests are open to all eligible attendees
             who are active participants of the incentive community. All contests

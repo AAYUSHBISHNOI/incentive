@@ -201,7 +201,7 @@ const Card = () => {
               E-Commerce
             </p>
           </div>
-          <div className="w-[160px] border-[2px] border-transparent hover:border-[#5271ff] duration-500 ease-in-out md:w-[170px] lg:w-[175px] h-[156px] rounded-[10px] bg-white pricing-card-shadow py-[38px] px-[32px] md:px-[30px] lg:px-[40px] flex justify-center text-center items-center mt-[15px] md:mt-[18px] xl:mt-0 flex-col">
+          <div className="w-[160px] border-[2px] border-transparent hover:border-[#5271ff] duration-500 ease-in-out md:w-[170px] lg:w-[175px] h-[156px] rounded-[10px] bg-white pricing-card-shadow py-[38px] px-[32px] md:px-[30px] lg:px-[40px] flex justify-center text-center items-center mt-[15px] md:mt-[18px] lg:mt-0 flex-col">
             <span>
               <svg
                 width="55"
@@ -239,7 +239,7 @@ const Card = () => {
               Home Services
             </p>
           </div>
-          <div className="w-[160px] border-[2px] border-transparent hover:border-[#5271ff] duration-500 ease-in-out md:w-[170px] lg:w-[175px] h-[156px] rounded-[10px] bg-white pricing-card-shadow py-[38px] px-[36px] lg:px-[40px] flex justify-center items-center mt-[15px] md:mt-[18px] flex-col">
+          <div className="w-[160px] border-[2px] border-transparent hover:border-[#5271ff] duration-500 ease-in-out md:w-[170px] lg:w-[175px] h-[156px] rounded-[10px] bg-white pricing-card-shadow py-[38px] px-[36px] lg:px-[40px] flex justify-center items-center mt-[15px] md:mt-[18px] lg:mt-0 xl:mt-[18px] flex-col">
             <span>
               <svg
                 width="56"
@@ -265,7 +265,7 @@ const Card = () => {
               Contests
             </p>
           </div>
-          <div className="w-[160px] border-[2px] border-transparent hover:border-[#5271ff] duration-500 ease-in-out md:w-[170px] lg:w-[175px] h-[156px] rounded-[10px] bg-white pricing-card-shadow py-[38px] px-[36px] lg:px-[40px] flex justify-center items-center mt-[15px] md:mt-[18px] flex-col">
+          <div className="w-[160px] border-[2px] border-transparent hover:border-[#5271ff] duration-500 ease-in-out md:w-[170px] lg:w-[175px] h-[156px] rounded-[10px] bg-white pricing-card-shadow py-[38px] px-[36px] lg:px-[40px] flex justify-center items-center mt-[15px] md:mt-[18px] lg:mt-0 xl:mt-[18px] flex-col">
             <span>
               <svg
                 width="56"
@@ -295,7 +295,7 @@ const Card = () => {
               Retail
             </p>
           </div>
-          <div className="w-[160px] border-[2px] border-transparent hover:border-[#5271ff] duration-500 ease-in-out md:w-[170px] lg:w-[175px] h-[156px] rounded-[10px] bg-white pricing-card-shadow py-[38px] px-[36px] lg:px-[40px] flex justify-center items-center mt-[15px] md:mt-[18px] flex-col">
+          <div className="w-[160px] border-[2px] border-transparent hover:border-[#5271ff] duration-500 ease-in-out md:w-[170px] lg:w-[175px] h-[156px] rounded-[10px] bg-white pricing-card-shadow py-[38px] px-[36px] lg:px-[40px] flex justify-center items-center mt-[15px] md:mt-[18px] lg:mt-0 xl:mt-[18px] flex-col">
             <span>
               <svg
                 width="56"
@@ -321,7 +321,7 @@ const Card = () => {
               Real Estate
             </p>
           </div>
-          <div className="w-[160px] border-[2px] border-transparent hover:border-[#5271ff] duration-500 ease-in-out md:w-[170px] lg:w-[175px] h-[156px] rounded-[10px] bg-white pricing-card-shadow py-[38px] px-[36px] lg:px-[40px] flex justify-center items-center mt-[15px] md:mt-[18px] flex-col">
+          <div className="w-[160px] border-[2px] border-transparent hover:border-[#5271ff] duration-500 ease-in-out md:w-[170px] lg:w-[175px] h-[156px] rounded-[10px] bg-white pricing-card-shadow py-[38px] px-[36px] lg:px-[40px] flex justify-center items-center mt-[15px] md:mt-[18px] lg:mt-0 xl:mt-[18px] flex-col">
             <span>
               <svg
                 width="54"
@@ -351,7 +351,7 @@ const Card = () => {
               Nightlife
             </p>
           </div>
-          <div className="w-[160px] border-[2px] border-transparent hover:border-[#5271ff] duration-500 ease-in-out md:w-[170px] lg:w-[175px] h-[156px] rounded-[10px] bg-white pricing-card-shadow py-[38px] px-[36px] lg:px-[40px] flex justify-center items-center mt-[15px] md:mt-[18px] flex-col">
+          <div className="w-[160px] border-[2px] border-transparent hover:border-[#5271ff] duration-500 ease-in-out md:w-[170px] lg:w-[175px] h-[156px] rounded-[10px] bg-white pricing-card-shadow py-[38px] px-[36px] lg:px-[40px] flex justify-center items-center mt-[15px] md:mt-[18px] lg:mt-0 xl:mt-[18px] flex-col">
             <span>
               <svg
                 width="55"
@@ -381,7 +381,7 @@ const Card = () => {
               Restaurants
             </p>
           </div>
-          <div className="w-[160px] border-[2px] border-transparent hover:border-[#5271ff] duration-500 ease-in-out md:w-[170px] lg:w-[175px] h-[156px] rounded-[10px] bg-white pricing-card-shadow py-[38px] px-[36px] lg:px-[40px] flex justify-center items-center mt-[15px] md:mt-[18px] flex-col">
+          <div className="w-[160px] border-[2px] border-transparent hover:border-[#5271ff] duration-500 ease-in-out md:w-[170px] lg:w-[175px] h-[156px] rounded-[10px] bg-white pricing-card-shadow py-[38px] px-[36px] lg:px-[40px] flex justify-center items-center mt-[15px] md:mt-[18px] lg:mt-0 xl:mt-[18px] flex-col">
             <span>
               <svg
                 width="56"
