@@ -72,7 +72,7 @@ const Navbar = () => {
               Login
             </button>
           </ul>
-          <button className="font-circular hidden lg:block font-light text-base leading-[126%] text-white hover:text-[#ffa852] bg-[#ffa852] hover:bg-white duration-500 ease-in-out py-[15px] px-[147px] lg:px-[37px] rounded-[10px]">
+          <button className="font-circular hidden lg:block font-light text-base leading-[126%] text-white hover:text-[#ffa852] bg-[#ffa852] hover:bg-white duration-500 ease-in-out py-[12px] px-[147px] lg:px-[37px] rounded-[10px]">
             Login
           </button>
           <button

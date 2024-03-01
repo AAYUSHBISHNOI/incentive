@@ -21,11 +21,11 @@ const Win = () => {
               src={mobile}
               alt="chat-mobile"
             />
-            <button className="font-circular hover:bg-[#ffa852] duration-500 ease-in-out md:hidden text-lg font-normal leading-[126%] md:pt-[17px] md:pb-[20px] py-[17px] px-[117px] md:px-[50px] bg-darkblue text-white rounded-[10px] mt-[25px]">
+            <button className="font-circular hover:bg-[#ffa852] duration-500 ease-in-out md:hidden text-lg font-normal leading-[126%] md:pt-[17px] md:pb-[20px] py-[16px] px-[117px] md:px-[50px] bg-darkblue text-white rounded-[10px] mt-[25px]">
               Get Started
             </button>
           </div>
-          <div className="w-full md:w-[45%] order-1 lg:order-2">
+          <div className="w-full md:w-[54%] order-1 lg:order-2">
             <div className="relative">
               <h2 className="font-circular text-[28px] lg:text-md text-[#000000] font-black leadiong-[110%] z-10 relative max-w-[335px] md:max-w-[517px]">
                 Win Cash to Venmo
@@ -39,9 +39,9 @@ const Win = () => {
                 alt="comman-img-m"
               />
             </div>
-            <p className="font-circular font-light text-lg leading-[150%] text-[#797979] !mt-[20px] max-w-[535px]">
+            <p className="font-circular font-light text-lg leading-[150%] text-[#797979] !mt-[20px] max-w-[585px]">
               Eligible participants can join automated contests to win
-              Incentives/Cash Prizes¹.
+              Incentives/ Cash Prizes¹.
             </p>
             <button className="font-circular hidden hover:bg-[#ffa852] duration-500 ease-in-outhidden md:block text-lg font-normal leading-[126%] md:pt-[17px] md:pb-[20px] py-[17px] px-[30px] md:px-[50px] bg-darkblue text-white rounded-[10px] md:mt-[15px] lg:mt-[25px]">
               Get Started

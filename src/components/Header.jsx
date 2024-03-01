@@ -8,7 +8,7 @@ import yellow from "../assets/image/webp/header-elipse.webp";
 const Header = () => {
   return (
     <div className=" max-w-[1920px] mx-auto relative">
-        <img className="absolute top-[50%] left-0 md:top-[20%] lg:top-[10%] xl:top-[25%] xl:w-[1000px] xl:h-[1000px] -z-10" src={herorelpise} alt="elipse-hero" />
+        <img className="absolute top-[50%] h-[1000px] left-0 md:top-[20%] lg:top-[30%] xl:top-[30%] xl:w-[1000px] md:h-[700px] xl:h-[1000px] -z-10" src={herorelpise} alt="elipse-hero" />
         <img className="absolute right-0 top-0 -z-10" src={yellow} alt="elipse-yellow" />
         <img
           className="absolute w-[329px] md:w-[380px] xl:w-[586px] h-[307px] md:h-[390px] xl:h-[549px] right-0 xl:right-[0%] top-[35%] xl:top-[15%] md:top-[10%] -z-10"
@@ -37,7 +37,7 @@ const Header = () => {
                 prizes for helping support businesses. Chat and connect with
                 others and then privately review the promotion.
               </p>
-              <button className="bg-[#5271ff] flex items-center hover:bg-[#ffa852] duration-500 ease-in-out gap-[15px] font-circular font-normal text-lg text-white pt-[17px] pb-[20px] px-[50px] rounded-[10px] mt-[25px]">
+              <button className="bg-[#5271ff] flex items-center hover:bg-[#ffa852] duration-500 ease-in-out gap-[15px] font-circular font-normal text-lg text-white py-[16px] px-[50px] rounded-[10px] mt-[25px]">
                 Find Promotions/Contests
                 <span>
                   <svg
@@ -68,7 +68,7 @@ const Header = () => {
                 prizes for helping support businesses. Chat and connect with
                 others and then privately review the promotion.
               </p>
-              <button className="bg-[#5271ff] flex items-center hover:bg-[#ffa852] duration-500 ease-in-out gap-[15px] font-circular font-normal text-lg text-white pt-[17px] pb-[20px] px-[40px] rounded-[10px] mt-[25px]">
+              <button className="bg-[#5271ff] flex items-center hover:bg-[#ffa852] duration-500 ease-in-out gap-[15px] font-circular font-normal text-lg text-white py-[13px] md:py-[15px] px-[40px] rounded-[10px] mt-[25px]">
                 Find Promotions/Contests
                 <span>
                   <svg

@@ -19,7 +19,7 @@ const Promote = () => {
               src={image_one}
               alt="girl-image"
             />
-            <button className="font-circular hover:bg-[#ffa852] duration-500 ease-in-out md:hidden text-lg font-normal leading-[126%] md:pt-[17px] md:pb-[20px] py-[17px] px-[117px] md:px-[50px] bg-darkblue text-white rounded-[10px] mt-[25px]">
+            <button className="font-circular hover:bg-[#ffa852] duration-500 ease-in-out md:hidden text-lg font-normal leading-[126%] py-[16px] px-[117px] md:px-[50px] bg-darkblue text-white rounded-[10px] mt-[25px]">
               Get Started
             </button>
           </div>
@@ -35,7 +35,7 @@ const Promote = () => {
                 alt="comman-img-m"
               />
             </div>
-            <p className="max-w-[480px] font-circular font-light text-base leading-[150%] text-[#797979] !mt-[14px] lg:!mt-[20px]">
+            <p className="max-w-[480px] font-circular font-light text-lg leading-[150%] text-[#797979] !mt-[14px] lg:!mt-[20px]">
               Incentive allows businesses to promote their locations, products
               or websites and boost customers with promotions. Use custom links
               to invite or allow others to invite. Customers can request
@@ -46,7 +46,7 @@ const Promote = () => {
             <p className="font-circular font-light text-base leading-[150%] text-[#000000] !mt-[15px]">
               Sign up and start getting customers with great offers.
             </p>
-            <button className="font-circular hover:bg-[#ffa852] duration-500 ease-in-out hidden md:block text-lg font-normal leading-[126%] md:pt-[17px] md:pb-[20px] py-[17px] px-[30px] md:px-[50px] bg-darkblue text-white rounded-[10px] md:mt-[15px] lg:mt-[25px]">
+            <button className="font-circular hover:bg-[#ffa852] duration-500 ease-in-out hidden md:block text-lg font-normal leading-[126%] md:py-[19px] py-[15px] px-[30px] md:px-[50px] bg-darkblue text-white rounded-[10px] md:mt-[15px] lg:mt-[25px]">
               Get Started
             </button>
           </div>

@@ -45,7 +45,7 @@ const Chat = () => {
               src={mobile}
               alt="chat-mobile"
             />
-            <button className="font-circular md:hidden text-lg font-normal hover:bg-[#ffa852] duration-300 leading-[126%] md:pt-[17px] md:pb-[20px] py-[17px] px-[117px] md:px-[50px] bg-darkblue text-white rounded-[10px] mt-[25px]">
+            <button className="font-circular md:hidden text-lg font-normal hover:bg-[#ffa852] duration-300 leading-[126%] md:pt-[17px] md:pb-[20px] py-[16px] px-[117px] md:px-[50px] bg-darkblue text-white rounded-[10px] mt-[25px]">
               Get Started
             </button>
           </div>

@@ -178,7 +178,7 @@ const Pricing = () => {
                   </p>
                 </div>
               </div>
-              <button className="font-circular hover:bg-[#ffa852] duration-500 ease-in-out text-lg font-normal leading-[126%] md:pt-[17px] md:pb-[20px] py-[17px] px-[97px] lg:px-[139px] bg-darkblue text-white rounded-[10px] mt-[20px] md:mt-[42px]">
+              <button className="font-circular hover:bg-[#ffa852] duration-500 ease-in-out text-lg font-normal leading-[126%] py-[16px] md:py-[19px] px-[97px] lg:px-[139px] bg-darkblue text-white rounded-[10px] mt-[20px] md:mt-[25px]">
                 Start For Free
               </button>
             </div>
@@ -186,7 +186,7 @@ const Pricing = () => {
           <div className=" md:w-[430px] xl:w-[465px] mt-[20px] md:mt-0">
             <div className="w-[335px] md:w-[360px] lg:w-[420px] xl:w-[461px] h-[543px] md:h-[677px] py-[30px] rounded-[10px] bg-white pricing-card-shadow relative flex justify-center items-center flex-col">
               <img
-                className="w-[102px] h-[90px] md:w-[143px] md:h-[125px]"
+                className="w-[102px] h-[90px] md:w-[129px] md:h-[125px]"
                 src={pricingtwo}
                 alt="pricing-second-img"
               />
@@ -319,14 +319,14 @@ const Pricing = () => {
                   </p>
                 </div>
               </div>
-              <button className="font-circular hover:bg-[#ffa852] duration-500 ease-in-out text-base md:text-lg font-normal leading-[126%] pt-[17px] pb-[20px] px-[98px] lg:px-[139px] bg-darkblue text-white rounded-[10px] mt-[19px] md:mt-[42px]">
+              <button className="font-circular hover:bg-[#ffa852] duration-500 ease-in-out text-base md:text-lg font-normal leading-[126%] py-[17px] md:py-[16px] px-[98px] lg:px-[139px] bg-darkblue text-white rounded-[10px] mt-[19px] md:mt-[25px]">
                 Start For Free
               </button>
             </div>
           </div>
         </div>
         <div className="text-center flex justify-center items-center mt-[25px] md:mt-[50px]">
-          <p className=" font-light text-base md:text-lg font-circular leading-[150%] text-white max-w-[777px]">
+          <p className=" font-light text-base md:text-lg font-circular leading-[150%] text-white max-w-[777px] md:max-w-[790px]">
             ¹No purchase necessary. Contests are open to all eligible attendees
             who are active participants of the incentive community. All contests
             are open to eligible participants who "Request to Join" a contest
